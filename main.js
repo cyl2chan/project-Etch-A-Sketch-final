@@ -18,7 +18,7 @@ function populateBoard(size) {
     }
 }
 
-populateBoard(16);
+populateBoard(50);
 
 function changeSize(input) {
     if (input >= 2 & input <= 100) {

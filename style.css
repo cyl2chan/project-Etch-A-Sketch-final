@@ -10,5 +10,73 @@
 .board {
     width: 500px;
     height: 500px;
+    box-shadow: 0 10px 10px rgba(17, 1, 241, 0.2);
     display: grid;
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.black-btn {
+    background-color: black;
+    color: white;
+}
+
+.erasor {
+    background-color: white;;
+}
+
+.gray-btn {
+    width: 65px;
+    background-color: rgb(209, 209, 209);
+}
+
+.rainbow-btn {
+    width: 120px;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 0, 0, 1) 0%,
+        rgba(255, 154, 0, 1) 10%,
+        rgba(208, 222, 33, 1) 20%,
+        rgba(79, 220, 74, 1) 30%,
+        rgba(63, 218, 216, 1) 40%,
+        rgba(47, 201, 226, 1) 50%,
+        rgba(28, 127, 238, 1) 60%,
+        rgba(95, 21, 242, 1) 70%,
+        rgba(186, 12, 248, 1) 80%,
+        rgba(251, 7, 217, 1) 90%,
+        rgba(255, 0, 0, 1) 100%
+    );
+}
+
+.reset-btn {
+
+}
+
+.size-btn {
+    width: 120px;
+}
+
+input {
+    width: 50px;
+    height: 31px;
+    font-size: 25px;
+}
+
+.error, .mode {
+    font-size: 20px;
+}
+
+
